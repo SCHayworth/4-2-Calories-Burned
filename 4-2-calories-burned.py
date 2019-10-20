@@ -15,7 +15,7 @@ CALORIES_PER_MINUTE = 4.2
 # Print the calories burned every 5 minutes beginning at 10 and ending at 30
 for minute in range(10, 31, 5):
 
-    # Multiply CALORIES_PER_MINUTE by the current minute and add result to the accumulator
+    # Multiply CALORIES_PER_MINUTE by the current minute
     calories_burned = minute * CALORIES_PER_MINUTE
 
     # Display the current total calories burned
