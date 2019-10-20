@@ -18,5 +18,5 @@ for minute in range(10, 31, 5):
     # Multiply CALORIES_PER_MINUTE by the current minute
     calories_burned = minute * CALORIES_PER_MINUTE
 
-    # Display the current total calories burned
+    # Display the current total calories burned and the current time in minutes
     print(f'You have burned {calories_burned:.1f} in {minute} minutes!')
