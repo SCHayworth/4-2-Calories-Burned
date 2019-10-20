@@ -11,8 +11,6 @@ Running on a particular treadmill you burn 4.2 calories per minute. Write a prog
 
 # Pseudocode
     Set calories per minute constant = 4.2
-    Set accumulator = 0
     for each 5 minute increment starting at 10 and ending at 30
       multiply calories per minute by the number of minutes
-      add result to accumulator
       Display the current count and the current number of minutes
